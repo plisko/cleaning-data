@@ -7,8 +7,8 @@ library(plyr)
 # Set workspace and copy data in R variables
 ### STEP I ###
 
-# set working directory to download and operate on files
-setwd(dir="/Users/paul/Documents/Coursera/Getting And Cleaning Data/hw/peer_assessment/")
+# UNCOMMENT THIS to set the working directory to download and operate on files
+#setwd(dir="/Users/paul/Documents/Coursera/Getting And Cleaning Data/hw/peer_assessment/")
 
 # download and unzip file in the working directory
 download.file(url="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", destfile="./UCI_HAR_dataset.zip", method="curl")
