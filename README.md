@@ -1,8 +1,7 @@
 cleaning-data
 =============
 
-General information on the run_analysis script.
--------------
+**General information on the run_analysis script.**
 
 The run_analysis.R performs the download of the original data from the website, unzips the file in the R workspace, reads the data in R variables and performs the cleaning of the data.
 The original dataset is related to mobile phone sensors linked to the activity (walking, sitting, laying, ...) that is performed.
