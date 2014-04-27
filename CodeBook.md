@@ -1,6 +1,8 @@
 CodeBook for run_analysis.R 
 ===========================
 
+(***Note**: other details of the procedure are included in the code comments*)
+
 run_analysis.R script gathers data related to the following research project:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
