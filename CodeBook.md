@@ -6,8 +6,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 The actual data that are downloaded from the script are available here:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-
-The original CodeBook from the project is available in the zip file above.
+The original CodeBook from the project is available in the zip file above (as README.txt).
 
 Since the original application is a machine-learning application, the data is split in:
 * training set - input features
