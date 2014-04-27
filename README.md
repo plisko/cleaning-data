@@ -1,16 +1,18 @@
 cleaning-data
 =============
 
-Repository for Cleaning Data Course from Coursera
--------
+Repository for "Getting and Cleaning Data"
+-------------
 
 Information on the run_analysis script.
 
-The script performs the reading (from the website) and cleaning of a dataset related to mobile phone sensor data linked to activity performed while executing the activity.
+The run_analysis.R performs the download of the original data from the website, unzips the file in the R workspace, reads the data in R variables and performs the cleaning of the data.
+The original dataset is related to mobile phone sensors linked to the activity (walking, sitting, laying, ...) that is performed.
 
-Since the original analysis was a machine-learining model, original data was split in data set and test set, many features were extracted, and output data (activity performed) are in separate files. The script accumulates all of the data in a single , cleaned data set.
-Moreover, an average aggreagte is computed over such cleaned dataset.
+Since the original analysis was aimed to a machine-learining model, original data was split in data set and test set, several features were extracted, and output data (label of activity performed) were in separate files.
+My R script accumulates the all of the data in a single, cleaned dataset.
+
+Moreover, the script generates a second dataset that accumulates the average values of the variables computed over the groups of activity and subjects of the experiment.
 
 
-Script details.
-Many details are in the comments
+You can find details about the script in the CodeBook.md markdown file (and in the script comments).
