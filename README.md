@@ -15,4 +15,4 @@ My R script accumulates the all of the data in a single, cleaned dataset.
 Moreover, the script generates a second dataset that accumulates the average values of the variables computed over the groups of activity and subjects of the experiment.
 
 
-You can find details about the script in the CodeBook.md markdown file (and in the script comments).
+You can find details about the script in the **CodeBook.md** markdown file (and in the script comments).
