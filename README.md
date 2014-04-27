@@ -2,7 +2,7 @@ cleaning-data
 =============
 
 Repository for Cleaning Data Course from Coursera
-
+-------
 
 Information on the run_analysis script.
 
@@ -13,4 +13,4 @@ Moreover, an average aggreagte is computed over such cleaned dataset.
 
 
 Script details.
-Many details are in the commentis
+Many details are in the comments
