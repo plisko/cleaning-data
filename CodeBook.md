@@ -20,11 +20,11 @@ Since the original application is a machine-learning application, the data is sp
 
 The script performs the following steps:
 # **downlad and import of the data** - files are downloaded and unpacked in the current working directory.
-# **merge test data with training data** - using load.table, data is loaded in R variables and both test data and training data are enriched with activity ids, activity descriptions and subject ids. Test data and training data are bound in a single data frame variable
-# **selection of base features** - 
+# **selection of mean/std of measured features** - the complete dataset feature list is read. Only the *features that contain the string "mean()" or "std()" are selected* from the feature list. These values are related either to means/std on axial measurements (X, Y, Z) or to means/std to vectorial variables.
+# **merge test data with training data** - using load.table, data is loaded in R variables and both test data and training data are enriched with activity ids, activity descriptions and subject ids. Test data and training data are bound in a single data frame variable. Only the features chosen at the previous point are kept.
+# **export cleaned dataset** - the cleaned dataset is exported in the working directory in two formats (*"cleanedData.txt" and "cleanedData.csv"*).
+# **compute aggregate data** - from the cleaned dataset, an aggregate dataframe is computed. Such dataframe contains only one observation for each pair (subject id, activity id). Each observation contains the average value of all the features considered in the previous points (mean() / std()).
+# **export aggregate dataset** - the aggregation dataset is exported in the working directory in two formats (*"meansData.txt" and "meansData.csv"*).
 
-(activity descriptions are added, and subject id are added to the dataset)
-# select only the features that correspond to the 
 
-
-
+Colums in the cleaned Data set:
